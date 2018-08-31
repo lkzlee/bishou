@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: bishou-api #换成自己的名称
+  aop:
+    auto: true
+server:
+  port: 7001 #换成自己的接口
+  tomcat:
+    access-log-enabled: true
+    access-log-pattern: '%{X-Real-IP}i %l %u %t "%r" %s %b %D %T %{Referer}i "%{User-Agent}i" %I %v %a'
+
